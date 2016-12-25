@@ -1,0 +1,26 @@
+{
+  "name": "cordova-admob-facebook",
+  "version": "0.0.0",
+  "description": "Cordova AdMob Mediation Plugin for Facebook",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-facebook",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+    "facebook",
+    "ad"
+  ]
+}

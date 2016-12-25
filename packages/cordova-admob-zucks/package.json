@@ -1,0 +1,26 @@
+{
+  "name": "cordova-admob-zucks",
+  "version": "0.0.0",
+  "description": "Cordova AdMob Mediation Plugin for Zucks",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-zucks",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+    "zucks",
+    "ad"
+  ]
+}

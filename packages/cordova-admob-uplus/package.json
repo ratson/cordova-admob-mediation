@@ -1,0 +1,26 @@
+{
+  "name": "cordova-admob-uplus",
+  "version": "0.0.0",
+  "description": "Cordova AdMob Mediation Plugin for LG U+AD",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-uplus",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+    "uplus",
+    "ad"
+  ]
+}

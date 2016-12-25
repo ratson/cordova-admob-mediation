@@ -1,0 +1,26 @@
+{
+  "name": "cordova-admob-vdopia",
+  "version": "0.0.0",
+  "description": "Cordova AdMob Mediation Plugin for Vdopia",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-vdopia",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+    "vdopia",
+    "ad"
+  ]
+}

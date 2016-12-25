@@ -1,0 +1,26 @@
+{
+  "name": "cordova-admob-fyber",
+  "version": "0.0.0",
+  "description": "Cordova AdMob Mediation Plugin for Fyber",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-fyber",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+    "fyber",
+    "ad"
+  ]
+}

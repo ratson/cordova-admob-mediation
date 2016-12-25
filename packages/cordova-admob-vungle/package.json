@@ -1,0 +1,26 @@
+{
+  "name": "cordova-admob-vungle",
+  "version": "0.0.0",
+  "description": "Cordova AdMob Mediation Plugin for Vungle",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "cordova-admob-vungle",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+    "vungle",
+    "ad"
+  ]
+}
