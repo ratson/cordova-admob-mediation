@@ -1,6 +1,6 @@
 {
   "name": "cordova-admob-vdopia",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cordova AdMob Mediation Plugin for Vdopia",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"

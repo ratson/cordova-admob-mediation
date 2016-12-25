@@ -1,6 +1,6 @@
 {
   "name": "cordova-admob-zucks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cordova AdMob Mediation Plugin for Zucks",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
