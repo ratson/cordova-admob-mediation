@@ -1,0 +1,28 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "scripts": {
+    "version": "sync-package-version --cordova-plugin"
+  },
+  "cordova": {
+    "id": "<%= name %>",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": "rehy/cordova-admob-mediation",
+  "author": "Ratson",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "admob",
+<% keywords.forEach(function(keyword) { -%>
+    "<%= keyword %>",
+<% }); -%>
+    "ad"
+  ]
+}

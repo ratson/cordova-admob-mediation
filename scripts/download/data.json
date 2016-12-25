@@ -1,0 +1,183 @@
+{
+  "networks": [
+    {
+      "name": "AdColony",
+      "pkg": "cordova-admob-adcolony",
+      "url": "http://adcolony.com"
+    },
+    {
+      "name": "AdFalcon",
+      "pkg": "cordova-admob-adfalcon",
+      "url": "http://adfalcon.com"
+    },
+    {
+      "name": "AdRally",
+      "pkg": "cordova-admob-adrally",
+      "url": "http://adrally.com/admob"
+    },
+    {
+      "name": "ADResult",
+      "pkg": "cordova-admob-adresult",
+      "url": "http://www.adresult.jp/sp/mediation_en.html"
+    },
+    {
+      "name": "AMoAd",
+      "pkg": "cordova-admob-amoad",
+      "url": "http://www.amoad.com/manuals/sdk/"
+    },
+    {
+      "name": "Amobee",
+      "pkg": "cordova-admob-amobee",
+      "url": "https://amobee.com/"
+    },
+    {
+      "name": "AppLovin",
+      "pkg": "cordova-admob-applovin",
+      "url": "https://support.applovin.com/support/solutions/articles/1000119736-i-m-a-publisher-how-do-i-get-started-with-applovin-"
+    },
+    {
+      "name": "Appsfire",
+      "pkg": "cordova-admob-appsfire",
+      "url": "http://appsfire.com"
+    },
+    {
+      "name": "BrightRoll",
+      "pkg": "cordova-admob-brightroll",
+      "url": "http://developer.brightroll.com/admob/"
+    },
+    {
+      "name": "Chartboost",
+      "pkg": "cordova-admob-chartboost",
+      "url": "https://answers.chartboost.com/hc/en-us/categories/200168563-Chartboost-Basics"
+    },
+    {
+      "name": "CrossChannel (MdotM)",
+      "pkg": "cordova-admob-crosschannel",
+      "url": "https://www.crosschannel.com"
+    },
+    {
+      "name": "Drawbridge",
+      "pkg": "cordova-admob-drawbridge",
+      "url": "http://doc.drawbrid.ge/#65-"
+    },
+    {
+      "name": "Facebook",
+      "pkg": "cordova-admob-facebook",
+      "url": "https://developers.facebook.com/docs/audience-network"
+    },
+    {
+      "name": "Flurry",
+      "pkg": "cordova-admob-flurry",
+      "url": "http://www.flurry.com"
+    },
+    {
+      "name": "Fuse Powered",
+      "pkg": "cordova-admob-fusepowered"
+    },
+    {
+      "name": "Fyber",
+      "pkg": "cordova-admob-fyber"
+    },
+    {
+      "name": "HUNT Mobile Ads",
+      "pkg": "cordova-admob-huntmads",
+      "url": "http://huntmads.com/google"
+    },
+    {
+      "name": "i-mobile for SP",
+      "pkg": "cordova-admob-imobile",
+      "url": "http://i-mobile.co.jp/en/manual_mediation_en.aspx"
+    },
+    {
+      "name": "InMobi",
+      "pkg": "cordova-admob-inmobi"
+    },
+    {
+      "name": "Leadbolt",
+      "pkg": "cordova-admob-leadbolt",
+      "url": "http://help.leadbolt.com/app-developers/"
+    },
+    {
+      "name": "LifeStreet Media",
+      "pkg": "cordova-admob-lifestreet",
+      "url": "http://www.lifestreetmedia.com"
+    },
+    {
+      "name": "LG U+AD",
+      "pkg": "cordova-admob-uplus",
+      "url": "http://uplus.kr/images/NS/banner/admob.HTML"
+    },
+    {
+      "name": "MobFox",
+      "pkg": "cordova-admob-mobfox",
+      "url": "http://www.mobfox.com/google/"
+    },
+    {
+      "name": "MoPub",
+      "pkg": "cordova-admob-mopub",
+      "url": "http://www.mopub.com"
+    },
+    {
+      "name": "Nend",
+      "pkg": "cordova-admob-nend",
+      "url": "https://github.com/fan-ADN/nendSDK-admob-mediation/wiki/nendSDK-AdMob-Mediation-Integration-Set-Up-Guide"
+    },
+    {
+      "name": "ONE by AOL: Mobile (Millennial Media)",
+      "pkg": "cordova-admob-millennialmedia"
+    },
+    {
+      "name": "ONE by AOL: Mobile (Nexage)",
+      "pkg": "cordova-admob-nexage",
+      "url": "http://www.nexage.com"
+    },
+    {
+      "name": "T ad (SK planet)",
+      "pkg": "cordova-admob-tad",
+      "url": "http://www.t-ad.co.kr/"
+    },
+    {
+      "name": "TapIt by Phunware",
+      "pkg": "cordova-admob-tapit",
+      "url": "http://tapit.com/"
+    },
+    {
+      "name": "Tencent GDT",
+      "pkg": "cordova-admob-tencent",
+      "url": "http://e.qq.com/dev/#index"
+    },
+    {
+      "name": "Tremor Video",
+      "pkg": "cordova-admob-tremor",
+      "url": "http://tremorvideo.com"
+    },
+    {
+      "name": "Unity Ads",
+      "pkg": "cordova-admob-unity",
+      "url": "https://unity3d.com/services/ads"
+    },
+    {
+      "name": "Vdopia",
+      "pkg": "cordova-admob-vdopia",
+      "url": "http://www.vdopia.com/mobile/"
+    },
+    {
+      "name": "Vpon",
+      "pkg": "cordova-admob-vpon"
+    },
+    {
+      "name": "Vserv (Emerging Markets)",
+      "pkg": "cordova-admob-vserv",
+      "url": "http://www.vserv.com"
+    },
+    {
+      "name": "Vungle",
+      "pkg": "cordova-admob-vungle"
+    },
+    {
+      "name": "Zucks",
+      "pkg": "cordova-admob-zucks",
+      "url": "https://ms.zucksadnetwork.com/media/sdk/manual/admob-mediation/"
+    }
+  ]
+}
