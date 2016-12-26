@@ -1,6 +1,7 @@
 import assert from 'assert'
 import path from 'path'
 
+import _ from 'lodash'
 import cheerio from 'cheerio'
 import got from 'got'
 import jsonfile from 'jsonfile-promised'
@@ -77,12 +78,24 @@ function refreshData(filename) {
   })
 }
 
-function addExtraNetworks(data) {
+function enhanceData(data) {
   data.networks.push({
     name: 'AdBuddiz',
     pkg: 'cordova-admob-adbuddiz',
     url: 'https://publishers.adbuddiz.com/pub_portal/login?path=/pub_portal/sdk/admob',
   })
+
+  data.networks = data.networks.map((network) => {
+    const {pkg} = network
+    const pkgDir = path.join(__dirname, '../../packages', pkg)
+    return {
+      ...network,
+      id: _.last(pkg.split('-')),
+      pkgDir,
+      pkgDirJoin: (...args) => path.join(pkgDir, ...args),
+    }
+  })
+
   return data
 }
 
@@ -90,10 +103,10 @@ export default () => {
   const filename = path.join(__dirname, 'data.json')
 
   if (process.env.REFRESH_DATA) {
-    return refreshData(filename).then(addExtraNetworks)
+    return refreshData(filename).then(enhanceData)
   }
 
   return jsonfile.readFile(filename)
   .catch(() => refreshData(filename))
-  .then(addExtraNetworks)
+  .then(enhanceData)
 }
