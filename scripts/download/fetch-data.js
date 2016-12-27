@@ -62,6 +62,18 @@ function fetchData() {
         name,
         pkg: toPackageName(name),
         url: normalizeUrl(url),
+        android: {
+          adapter: normalizeUrl($tr
+            .find('td:nth-child(4)')
+            .find('a:contains("Adapter for Android")')
+            .attr('href')),
+        },
+        ios: {
+          adapter: normalizeUrl($tr
+            .find('td:nth-child(4)')
+            .find('a:contains("Adapter for iOS")')
+            .attr('href')),
+        },
       }
     })
     .get()

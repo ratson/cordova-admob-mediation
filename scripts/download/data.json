@@ -3,181 +3,289 @@
     {
       "name": "AdColony",
       "pkg": "cordova-admob-adcolony",
-      "url": "http://adcolony.com"
+      "url": "http://adcolony.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "AdFalcon",
       "pkg": "cordova-admob-adfalcon",
-      "url": "http://adfalcon.com"
+      "url": "http://adfalcon.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "AdRally",
       "pkg": "cordova-admob-adrally",
-      "url": "http://adrally.com/admob"
+      "url": "http://adrally.com/admob",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "ADResult",
       "pkg": "cordova-admob-adresult",
-      "url": "http://www.adresult.jp/sp/mediation_en.html"
+      "url": "http://www.adresult.jp/sp/mediation_en.html",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "AMoAd",
       "pkg": "cordova-admob-amoad",
-      "url": "http://www.amoad.com/manuals/sdk/"
+      "url": "http://www.amoad.com/manuals/sdk/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Amobee",
       "pkg": "cordova-admob-amobee",
-      "url": "https://amobee.com/"
+      "url": "https://amobee.com/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "AppLovin",
       "pkg": "cordova-admob-applovin",
-      "url": "https://support.applovin.com/support/solutions/articles/1000119736-i-m-a-publisher-how-do-i-get-started-with-applovin-"
+      "url": "https://support.applovin.com/support/solutions/articles/1000119736-i-m-a-publisher-how-do-i-get-started-with-applovin-",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Appsfire",
       "pkg": "cordova-admob-appsfire",
-      "url": "http://appsfire.com"
+      "url": "http://appsfire.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "BrightRoll",
       "pkg": "cordova-admob-brightroll",
-      "url": "http://developer.brightroll.com/admob/"
+      "url": "http://developer.brightroll.com/admob/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Chartboost",
       "pkg": "cordova-admob-chartboost",
-      "url": "https://answers.chartboost.com/hc/en-us/categories/200168563-Chartboost-Basics"
+      "url": "https://answers.chartboost.com/hc/en-us/categories/200168563-Chartboost-Basics",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "CrossChannel (MdotM)",
       "pkg": "cordova-admob-crosschannel",
-      "url": "https://www.crosschannel.com"
+      "url": "https://www.crosschannel.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Drawbridge",
       "pkg": "cordova-admob-drawbridge",
-      "url": "http://doc.drawbrid.ge/#65-"
+      "url": "http://doc.drawbrid.ge/#65-",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Facebook",
       "pkg": "cordova-admob-facebook",
-      "url": "https://developers.facebook.com/docs/audience-network"
+      "url": "https://developers.facebook.com/docs/audience-network",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Flurry",
       "pkg": "cordova-admob-flurry",
-      "url": "http://www.flurry.com"
+      "url": "http://www.flurry.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Fuse Powered",
-      "pkg": "cordova-admob-fusepowered"
+      "pkg": "cordova-admob-fusepowered",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Fyber",
-      "pkg": "cordova-admob-fyber"
+      "pkg": "cordova-admob-fyber",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "HUNT Mobile Ads",
       "pkg": "cordova-admob-huntmads",
-      "url": "http://huntmads.com/google"
+      "url": "http://huntmads.com/google",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "i-mobile for SP",
       "pkg": "cordova-admob-imobile",
-      "url": "http://i-mobile.co.jp/en/manual_mediation_en.aspx"
+      "url": "http://i-mobile.co.jp/en/manual_mediation_en.aspx",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "InMobi",
-      "pkg": "cordova-admob-inmobi"
+      "pkg": "cordova-admob-inmobi",
+      "android": {
+        "adapter": "https://dl.inmobi.com/SDK/Adapters/AdMobMediation_Adapter_InMobi_Android_SDK.zip"
+      },
+      "ios": {
+        "adapter": "https://dl.inmobi.com/SDK/Adapters/AdMobMediation_Adapter_InMobi_iOS_SDK.zip"
+      }
     },
     {
       "name": "Leadbolt",
       "pkg": "cordova-admob-leadbolt",
-      "url": "http://help.leadbolt.com/app-developers/"
+      "url": "http://help.leadbolt.com/app-developers/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "LifeStreet Media",
       "pkg": "cordova-admob-lifestreet",
-      "url": "http://www.lifestreetmedia.com"
+      "url": "http://www.lifestreetmedia.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "LG U+AD",
       "pkg": "cordova-admob-uplus",
-      "url": "http://uplus.kr/images/NS/banner/admob.HTML"
+      "url": "http://uplus.kr/images/NS/banner/admob.HTML",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "MobFox",
       "pkg": "cordova-admob-mobfox",
-      "url": "http://www.mobfox.com/google/"
+      "url": "http://www.mobfox.com/google/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "MoPub",
       "pkg": "cordova-admob-mopub",
-      "url": "http://www.mopub.com"
+      "url": "http://www.mopub.com",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Nend",
       "pkg": "cordova-admob-nend",
-      "url": "https://github.com/fan-ADN/nendSDK-admob-mediation/wiki/nendSDK-AdMob-Mediation-Integration-Set-Up-Guide"
+      "url": "https://github.com/fan-ADN/nendSDK-admob-mediation/wiki/nendSDK-AdMob-Mediation-Integration-Set-Up-Guide",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "ONE by AOL: Mobile (Millennial Media)",
-      "pkg": "cordova-admob-millennialmedia"
+      "pkg": "cordova-admob-millennialmedia",
+      "android": {
+        "adapter": "http://docs.millennialmedia.com/android-ad-sdk/mediation-admob-to-millennial.html"
+      },
+      "ios": {
+        "adapter": "http://docs.millennialmedia.com/ios-ad-sdk/mediation-admob-to-millennial.html"
+      }
     },
     {
       "name": "ONE by AOL: Mobile (Nexage)",
       "pkg": "cordova-admob-nexage",
-      "url": "http://www.nexage.com"
+      "url": "http://www.nexage.com",
+      "android": {
+        "adapter": "http://docs.millennialmedia.com/android-ad-sdk/mediation-admob-to-millennial.html"
+      },
+      "ios": {
+        "adapter": "http://docs.millennialmedia.com/ios-ad-sdk/mediation-admob-to-millennial.html"
+      }
     },
     {
       "name": "T ad (SK planet)",
       "pkg": "cordova-admob-tad",
-      "url": "http://www.t-ad.co.kr/"
+      "url": "http://www.t-ad.co.kr/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "TapIt by Phunware",
       "pkg": "cordova-admob-tapit",
-      "url": "http://tapit.com/"
+      "url": "http://tapit.com/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Tencent GDT",
       "pkg": "cordova-admob-tencent",
-      "url": "http://e.qq.com/dev/#index"
+      "url": "http://e.qq.com/dev/#index",
+      "android": {
+        "adapter": "http://imgcache.qq.com/qzone/biz/gdt/dev/sdk/android/release/GDT_Android_ADMobAdapter.zip"
+      },
+      "ios": {
+        "adapter": "http://imgcache.qq.com/qzone/biz/gdt/dev/sdk/ios/release/GDT_iOS_AdMobAdapter.zip"
+      }
     },
     {
       "name": "Tremor Video",
       "pkg": "cordova-admob-tremor",
-      "url": "http://tremorvideo.com"
+      "url": "http://tremorvideo.com",
+      "android": {
+        "adapter": "http://mobile.tremorvideo.com/google/adapter/TremorVideoAdapter_Android.zip"
+      },
+      "ios": {
+        "adapter": "http://mobile.tremorvideo.com/google/adapter/TremorVideoAdapter_iOS.zip"
+      }
     },
     {
       "name": "Unity Ads",
       "pkg": "cordova-admob-unity",
-      "url": "https://unity3d.com/services/ads"
+      "url": "https://unity3d.com/services/ads",
+      "android": {
+        "adapter": "https://dl.google.com/googleadmobadssdk/adapterunityandroid.zip"
+      },
+      "ios": {
+        "adapter": "https://dl.google.com/googleadmobadssdk/libadapterunity.zip"
+      }
     },
     {
       "name": "Vdopia",
       "pkg": "cordova-admob-vdopia",
-      "url": "http://www.vdopia.com/mobile/"
+      "url": "http://www.vdopia.com/mobile/",
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Vpon",
-      "pkg": "cordova-admob-vpon"
+      "pkg": "cordova-admob-vpon",
+      "android": {
+        "adapter": "http://wiki.vpon.com/index.php?title=Android_Download"
+      },
+      "ios": {
+        "adapter": "http://wiki.vpon.com/index.php?title=IOS_Download"
+      }
     },
     {
       "name": "Vserv (Emerging Markets)",
       "pkg": "cordova-admob-vserv",
-      "url": "http://www.vserv.com"
+      "url": "http://www.vserv.com",
+      "android": {
+        "adapter": "http://www.vserv.com/?ddownload=15087"
+      },
+      "ios": {}
     },
     {
       "name": "Vungle",
-      "pkg": "cordova-admob-vungle"
+      "pkg": "cordova-admob-vungle",
+      "android": {
+        "adapter": "https://support.vungle.com/hc/en-us/articles/207604108"
+      },
+      "ios": {
+        "adapter": "https://support.vungle.com/hc/en-us/articles/208073977"
+      }
     },
     {
       "name": "Zucks",
       "pkg": "cordova-admob-zucks",
-      "url": "https://ms.zucksadnetwork.com/media/sdk/manual/admob-mediation/"
+      "url": "https://ms.zucksadnetwork.com/media/sdk/manual/admob-mediation/",
+      "android": {},
+      "ios": {}
     }
   ]
 }
