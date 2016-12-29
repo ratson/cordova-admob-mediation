@@ -8,22 +8,21 @@
   </engines>
 
   <platform name="android">
-    <config-file parent="/*" target="res/xml/config.xml">
-    </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml" />
 <% android.sourceFiles.forEach(function(sourceFile) { -%>
     <source-file src="<%= sourceFile.src %>" target-dir="<%= sourceFile.target %>" />
 <% }); -%>
   </platform>
 
   <platform name="ios">
-    <config-file parent="/*" target="config.xml">
-    </config-file>
 <% ios.headerFiles.forEach(function(headerFile) { -%>
     <header-file src="<%= headerFile.src %>" />
 <% }); -%>
 <% ios.sourceFiles.forEach(function(sourceFile) { -%>
+<% if (sourceFile.framework) { -%>
+    <source-file src="<%= sourceFile.src %>" framework="true" />
+<% } else { -%>
     <source-file src="<%= sourceFile.src %>" target-dir="<%= sourceFile.target %>" />
+<% } -%>
 <% }); -%>
   </platform>
 </plugin>

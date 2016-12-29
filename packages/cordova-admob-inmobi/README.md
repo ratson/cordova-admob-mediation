@@ -1,5 +1,7 @@
 # Cordova AdMob Mediation Plugin for InMobi
 
-Work in progress.
+## Installation
 
-If you would like to contribute, [come here](https://github.com/rehy/cordova-admob-mediation).
+```sh
+cordova plugin add cordova-admob-inmobi --save
+```
