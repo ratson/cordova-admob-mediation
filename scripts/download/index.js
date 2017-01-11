@@ -3,7 +3,6 @@ import path from 'path'
 
 import _ from 'lodash'
 import 'loud-rejection/register'
-import decompress from 'decompress'
 import got from 'got'
 import mkdirp from 'mkdirp-promise'
 import jsonfile from 'jsonfile-promised'
