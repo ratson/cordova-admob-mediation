@@ -22,5 +22,10 @@
     "admob",
     "adbuddiz",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

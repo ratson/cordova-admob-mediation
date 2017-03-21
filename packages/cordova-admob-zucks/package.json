@@ -22,5 +22,10 @@
     "admob",
     "zucks",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

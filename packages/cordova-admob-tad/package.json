@@ -22,5 +22,10 @@
     "admob",
     "tad",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

@@ -22,5 +22,10 @@
     "admob",
     "fyber",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

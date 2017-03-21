@@ -22,5 +22,10 @@
     "admob",
     "brightroll",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

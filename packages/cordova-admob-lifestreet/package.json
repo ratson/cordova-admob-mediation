@@ -22,5 +22,10 @@
     "admob",
     "lifestreet",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

@@ -22,5 +22,10 @@
     "admob",
     "flurry",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

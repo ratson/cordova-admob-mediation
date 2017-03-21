@@ -22,5 +22,10 @@
     "admob",
     "imobile",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

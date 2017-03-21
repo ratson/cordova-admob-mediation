@@ -22,5 +22,10 @@
     "admob",
     "huntmads",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

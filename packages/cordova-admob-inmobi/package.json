@@ -22,5 +22,10 @@
     "admob",
     "inmobi",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

@@ -22,5 +22,10 @@
     "admob",
     "applovin",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

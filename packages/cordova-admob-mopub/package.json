@@ -22,5 +22,10 @@
     "admob",
     "mopub",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

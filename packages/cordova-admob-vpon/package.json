@@ -22,5 +22,10 @@
     "admob",
     "vpon",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }

@@ -22,5 +22,10 @@
     "admob",
     "amobee",
     "ad"
+  ],
+  "files": [
+    "*.md",
+    "*.xml",
+    "src"
   ]
 }
