@@ -1,6 +1,6 @@
 {
   "name": "cordova-admob-brightroll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cordova AdMob Mediation Plugin for BrightRoll",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
