@@ -6,23 +6,23 @@
     "test": "eslint ."
   },
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-env": "^1.1.8",
-    "babel-preset-stage-0": "^6.16.0",
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-stage-0": "^6.22.0",
     "cheerio": "^0.22.0",
-    "ejs": "^2.5.5",
-    "eslint": "^3.13.1",
+    "ejs": "^2.5.6",
+    "eslint": "^3.18.0",
     "eslint-config-concise": "^0.6.1",
     "got": "^6.7.1",
     "jsonfile-promised": "^0.0.1",
-    "lerna": "2.0.0-beta.32",
+    "lerna": "2.0.0-beta.38",
     "lodash": "^4.17.4",
     "loud-rejection": "^1.6.0",
     "mkdirp": "^0.5.1",
-    "mkdirp-promise": "^5.0.0",
+    "mkdirp-promise": "^5.0.1",
     "mz": "^2.6.0",
     "path-exists": "^3.0.0",
     "sync-package-version": "^0.0.3",
-    "unzipper": "^0.7.3"
+    "unzipper": "^0.8.8"
   }
 }
