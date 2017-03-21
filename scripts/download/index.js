@@ -43,10 +43,16 @@ const handlers = {
         target: 'libs',
       }],
       async download({pkgDirJoin, android: {adapter}}) {
-        await mkdirp(pkgDirJoin(path.dirname(this.sourceFiles[0].src)))
+        const jarFilename = pkgDirJoin(this.sourceFiles[0].src)
+        await mkdirp(path.dirname(jarFilename))
         await got.stream(adapter)
-        .pipe(unzip.ParseOne())
-        .pipe(fs.createWriteStream(pkgDirJoin(this.sourceFiles[0].src)))
+        .pipe(unzip.ParseOne(/libadapterinmobi/))
+        .pipe(fs.createWriteStream(jarFilename))
+        .on('finish', () => {
+          if (fs.statSync(jarFilename).size === 0) {
+            throw new Error(`Empty file: ${jarFilename}`)
+          }
+        })
       },
     },
     ios: {
