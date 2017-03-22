@@ -5,3 +5,4 @@ This repository contains [AdMob Mediation Networks](https://firebase.google.com/
 ## Supported Mediation Networks
 
 * [InMobi](https://github.com/rehy/cordova-admob-mediation/tree/master/packages/cordova-admob-inmobi)
+* [MobFox](https://github.com/rehy/cordova-admob-mediation/tree/master/packages/cordova-admob-mobfox)

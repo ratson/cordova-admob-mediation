@@ -8,13 +8,12 @@
   </engines>
 
   <platform name="android">
-    <config-file parent="/*" target="res/xml/config.xml">
-    </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml" />
+    <source-file src="src/android/MobFox-Android-SDK-Core.jar" target-dir="libs" />
+    <source-file src="src/android/MobFox-Android-AdMob-Adapter.jar" target-dir="libs" />
   </platform>
 
   <platform name="ios">
-    <config-file parent="/*" target="config.xml">
-    </config-file>
+    <header-file src="src/ios/GADMAdapterMobFox.h" />
+    <source-file src="src/ios/MobFoxSDKCore.framework" framework="true" />
   </platform>
 </plugin>

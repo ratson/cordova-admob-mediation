@@ -79,6 +79,53 @@ const handlers = {
       },
     },
   },
+  mobfox: {
+    android: {
+      sourceFiles: [{
+        src: 'src/android/MobFox-Android-SDK-Core.jar',
+        target: 'libs',
+      }, {
+        src: 'src/android/MobFox-Android-AdMob-Adapter.jar',
+        target: 'libs',
+      }],
+      async download({pkgDirJoin, android: {adapter}}) {
+        await mkdirp(pkgDirJoin('src/android'))
+        await got.stream(adapter)
+        .pipe(unzip.Parse())
+        .on('entry', (entry) => {
+          if (_.endsWith(entry.path, 'MobFox-Android-SDK-Core-3.2.5.jar')) {
+            entry.pipe(fs.createWriteStream(pkgDirJoin('src/android', 'MobFox-Android-SDK-Core.jar')))
+          } else if (_.endsWith(entry.path, 'MobFox-Android-AdMob-Adapter.jar')) {
+            entry.pipe(fs.createWriteStream(pkgDirJoin('src/android', path.basename(entry.path))))
+          } else {
+            entry.autodrain()
+          }
+        })
+      },
+    },
+    ios: {
+      headerFiles: [{
+        src: 'src/ios/GADMAdapterMobFox.h',
+      }],
+      sourceFiles: [{
+        src: 'src/ios/MobFoxSDKCore.framework',
+        framework: true,
+      }],
+      async download({pkgDirJoin, ios: {adapter}}) {
+        await mkdirp(pkgDirJoin('src/ios'))
+        await got.stream(adapter)
+        .pipe(unzip.Parse())
+        .on('entry', (entry) => {
+          if (_.endsWith(entry.path, 'GADMAdapterMobFox.h') ||
+              _.endsWith(entry.path, 'GADMAdapterMobFox.m')) {
+            entry.pipe(fs.createWriteStream(pkgDirJoin('src/ios', path.basename(entry.path))))
+          } else {
+            entry.autodrain()
+          }
+        })
+      },
+    },
+  },
 }
 
 async function writePluginXml(network) {

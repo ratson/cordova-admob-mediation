@@ -97,6 +97,10 @@ function enhanceData(data) {
     url: 'https://publishers.adbuddiz.com/pub_portal/login?path=/pub_portal/sdk/admob',
   })
 
+  const mobfox = _.find(data.networks, ['pkg', 'cordova-admob-mobfox'])
+  mobfox.android.adapter = 'https://github.com/mobfox/MobFox-Android-SDK/archive/3.2.5.zip'
+  mobfox.ios.adapter = 'https://github.com/mobfox/MobFox-iOS-SDK/archive/v3.1.6c.zip'
+
   data.networks = data.networks.map((network) => {
     const {pkg} = network
     const pkgDir = path.join(__dirname, '../../packages', pkg)
