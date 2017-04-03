@@ -15,30 +15,9 @@
       "ios": {}
     },
     {
-      "name": "AdRally",
-      "pkg": "cordova-admob-adrally",
-      "url": "http://adrally.com/admob",
-      "android": {},
-      "ios": {}
-    },
-    {
-      "name": "ADResult",
-      "pkg": "cordova-admob-adresult",
-      "url": "http://www.adresult.jp/sp/mediation_en.html",
-      "android": {},
-      "ios": {}
-    },
-    {
       "name": "AMoAd",
       "pkg": "cordova-admob-amoad",
       "url": "http://www.amoad.com/manuals/sdk/",
-      "android": {},
-      "ios": {}
-    },
-    {
-      "name": "Amobee",
-      "pkg": "cordova-admob-amobee",
-      "url": "https://amobee.com/",
       "android": {},
       "ios": {}
     },
@@ -57,13 +36,6 @@
       "ios": {}
     },
     {
-      "name": "BrightRoll",
-      "pkg": "cordova-admob-brightroll",
-      "url": "http://developer.brightroll.com/admob/",
-      "android": {},
-      "ios": {}
-    },
-    {
       "name": "Chartboost",
       "pkg": "cordova-admob-chartboost",
       "url": "https://answers.chartboost.com/hc/en-us/categories/200168563-Chartboost-Basics",
@@ -74,13 +46,6 @@
       "name": "CrossChannel (MdotM)",
       "pkg": "cordova-admob-crosschannel",
       "url": "https://www.crosschannel.com",
-      "android": {},
-      "ios": {}
-    },
-    {
-      "name": "Drawbridge",
-      "pkg": "cordova-admob-drawbridge",
-      "url": "http://doc.drawbrid.ge/#65-",
       "android": {},
       "ios": {}
     },
@@ -212,6 +177,13 @@
       "ios": {}
     },
     {
+      "name": "Tapjoy",
+      "pkg": "cordova-admob-tapjoy",
+      "url": "http://dev.tapjoy.com/",
+      "android": {},
+      "ios": {}
+    },
+    {
       "name": "Tencent GDT",
       "pkg": "cordova-admob-tencent",
       "url": "http://e.qq.com/dev/#index",
@@ -237,12 +209,8 @@
       "name": "Unity Ads",
       "pkg": "cordova-admob-unity",
       "url": "https://unity3d.com/services/ads",
-      "android": {
-        "adapter": "https://dl.google.com/googleadmobadssdk/adapterunityandroid.zip"
-      },
-      "ios": {
-        "adapter": "https://dl.google.com/googleadmobadssdk/libadapterunity.zip"
-      }
+      "android": {},
+      "ios": {}
     },
     {
       "name": "Vdopia",
@@ -255,10 +223,10 @@
       "name": "Vpon",
       "pkg": "cordova-admob-vpon",
       "android": {
-        "adapter": "http://wiki.vpon.com/index.php?title=Android_Download"
+        "adapter": "https://vpon-sdk.github.io/android/download/#admob"
       },
       "ios": {
-        "adapter": "http://wiki.vpon.com/index.php?title=IOS_Download"
+        "adapter": "https://vpon-sdk.github.io/ios/download/index.html#adapter-download"
       }
     },
     {

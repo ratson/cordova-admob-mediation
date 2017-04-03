@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-admob-tapjoy" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>cordova-admob-tapjoy</name>
+  <description>Cordova AdMob Mediation Plugin for Tapjoy</description>
+
+  <engines>
+    <engine name="cordova" version=">=3" />
+  </engines>
+
+  <platform name="android">
+  </platform>
+
+  <platform name="ios">
+  </platform>
+</plugin>
