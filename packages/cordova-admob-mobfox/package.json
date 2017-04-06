@@ -1,6 +1,6 @@
 {
   "name": "cordova-admob-mobfox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cordova AdMob Mediation Plugin for MobFox",
   "scripts": {
     "version": "sync-package-version --cordova-plugin"
