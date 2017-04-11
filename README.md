@@ -6,3 +6,15 @@ This repository contains [AdMob Mediation Networks](https://firebase.google.com/
 
 * [InMobi](https://github.com/rehy/cordova-admob-mediation/tree/master/packages/cordova-admob-inmobi)
 * [MobFox](https://github.com/rehy/cordova-admob-mediation/tree/master/packages/cordova-admob-mobfox)
+
+## Contributing
+
+This repo is designed to not store any of the library binary files,
+contributor should change `scripts/download/index.js` and its releated files
+to download and generate package code.
+
+Running the following for generation,
+
+```sh
+npm run download
+```
