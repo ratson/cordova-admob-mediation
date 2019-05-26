@@ -8,13 +8,27 @@
   </engines>
 
   <platform name="android">
-    <config-file parent="/*" target="res/xml/config.xml">
+    <framework src="com.applovin:applovin-sdk:9.4.2" />
+    <framework src="com.google.ads.mediation:applovin:9.4.2.0" />
+
+    <config-file parent="/manifest/application" target="AndroidManifest.xml">
+      <activity android:name="com.applovin.adview.AppLovinInterstitialActivity"
+        android:configChanges="orientation|screenSize"/>
+
+      <activity android:name="com.applovin.adview.AppLovinConfirmationActivity"
+        android:configChanges="orientation|screenSize"/>
     </config-file>
-    <config-file parent="/*" target="AndroidManifest.xml" />
+
+    <!-- Prevents compilation error: https://developer.android.com/studio/build/multidex.html -->
+    <!-- when add additional mediation plugins -->
+    <dependency id="cordova-plugin-multidex" />
   </platform>
 
   <platform name="ios">
-    <config-file parent="/*" target="config.xml">
-    </config-file>
+    <pods-config ios-min-version="9.0" use-frameworks="true" />
+    <pod id="GoogleMobileAdsMediationAppLovin" version="4.6.0.0" custom="true" />
+
+    <!-- Prevents compilation failures when using pod's id with additional mediations plugins -->
+    <dependency id="cordova-plugin-cocoapod-support" />
   </platform>
 </plugin>
